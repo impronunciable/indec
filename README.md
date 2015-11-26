@@ -6,7 +6,7 @@
 ```js
 import indec from 'indec';
 
-Indec('0AjAPaAU9MeLFdHUxTlJiVVRYNGRJQnRmSnQwTlpoUXc', (error, data) => console.log(data));
+indec('0AjAPaAU9MeLFdHUxTlJiVVRYNGRJQnRmSnQwTlpoUXc', (error, data) => console.log(data));
 ```
 
 ## Getting the spreadsheet key:
@@ -23,7 +23,7 @@ Fetch data from the google drive spreadsheet given by the key and return as JSON
 - `listener` - Listener you want to add from given event.
 
 ```js
-Indec('0AjAPaAU9MeLFdHUxTlJiVVRYNGRJQnRmSnQwTlpoUXc', (error, data) => console.log(data));
+indec('0AjAPaAU9MeLFdHUxTlJiVVRYNGRJQnRmSnQwTlpoUXc', (error, data) => console.log(data));
 ```
 
 ## Installation
