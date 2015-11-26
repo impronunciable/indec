@@ -1,0 +1,21 @@
+{
+  "name": "indec",
+  "version": "0.0.1",
+  "description": "Google Drive to JSON for the browser",
+  "main": "lib/indec.js",
+  "scripts": {
+    "build": "./node_modules/.bin/babel -d lib src/",
+    "prepublish": "npm run build"
+  },
+  "keywords": [
+    "drive"
+  ],
+  "author": "Dan Zajdband <dan.zajdband@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "6.2.0",
+    "babel-preset-es2015": "6.1.18"
+  },
+  "dependencies": {
+  }
+}
